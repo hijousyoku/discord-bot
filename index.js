@@ -40,4 +40,4 @@ message.reply(replies[Math.floor(Math.random() * replies.length)]);
   }
 });
 
-client.login('process.env.token');
+client.login(process.env.token);
