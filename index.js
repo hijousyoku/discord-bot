@@ -20,7 +20,7 @@ if (message.channel.id !== "1504139411221254165") return;
 if (triggerWords.some(word => message.content.includes(word))) {
     const replies = [
 
-  'アタタメテクダサイトイッテオマエ' 
+  'アタタメテクダサイトイッテオマエ",
 ];
 
 message.reply(replies[Math.floor(Math.random() * replies.length)]);
