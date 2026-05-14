@@ -14,7 +14,7 @@ if (message.guild.id !=="1407703067159171123") return;
 if (message.channel.id !== "1504139411221254165") return;
 
   const triggerWords = [
-  "あたためて","温めて",
+  "あたためて","温めて"
 ];
 
 if (triggerWords.some(word => message.content.includes(word))) {
